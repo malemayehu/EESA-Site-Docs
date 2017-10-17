@@ -1,0 +1,200 @@
+body { 
+	margin: 0;
+	/*font: normal 12px/18px 'Helvetica', Arial, sans-serif;*/
+	font-family: 'Muli', sans-serif;
+  /*font-family: 'Allerta', sans-serif;*/
+	font-size:14px;
+	background: beige; /*#4189DD;*/
+}
+.amharic{
+  font-family:Visual Geez Unicode;
+}
+a:link{
+	text-decoration: none;
+  color: #eb0438;
+}
+
+a:visited{
+	color: #07892f;
+}
+
+a:hover{
+  color: #4189dd;
+}
+
+.rss-title, rss_title a {
+	margin: 0px 0;
+	padding: 0;
+}
+
+.rss-items {
+       list-style:none;
+       margin:0;
+       padding:0;
+}
+
+.rss-item  {
+  margin-bottom: 1em;;
+}
+img 
+{ 
+	border-style: none; 
+	text-decoration: none; 
+} 
+
+/* Positioning Rules */
+#container { 
+  position: relative;
+	top: -30px;
+	width: 1300px;
+	margin: 0 auto;
+}
+
+#content { 
+	position: relative; 
+	padding: 20px 20px 20px 20px;
+	background: #fff;
+	border-radius: 5px;
+  border: solid 1px gold;
+  margin: 10px auto;
+  width: 800px;
+}
+#content.twitter {
+ 	padding: 20px 250px 20px 20px;
+}
+.links {
+  text-align: center;
+}
+#pictures {
+  text-align: center;
+}
+#nav { 
+	height: 50px;
+  width: 500px;
+  margin: 0 auto;
+}
+#callout { 
+	position: absolute;
+	top: 50px;
+	bottom: 100px;
+	right: -100px; /*-80px;*/
+	width: 300px;
+  height: 450px;
+	padding: 0 20px;
+	/*border-top: 5px solid #FDD017;
+	background: #EA0437;*/
+}
+
+/* Stylistic Rules */
+#nav a {
+	display: block;
+	float: left;
+/*	color: #fff; */
+  color: black;
+	text-decoration: none;
+	padding: 0 10px;
+	line-height: 50px;
+	margin: 0 5px;
+/*	background: #078930; */
+}
+#nav a:hover {
+  opacity: .5;
+}
+#callout p {
+	color: #fff;
+}
+#banner {
+  letter-spacing: 20px;
+	text-align: center;
+  margin: 5px auto;
+  width: 1200px;
+  /*font-family: 'Bowlby One SC', sans-serif;*/
+  font-size: 45px;
+}
+
+#banner .title {
+	position: relative;
+  top: -30px;
+}
+
+#banner .mit, .ethiopian, .eritrean {
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
+
+dl dt {
+  float: left;
+  clear: left;
+  width: 100px;
+  padding-top: 3px;
+  text-align: left;
+  margin-right: 5px;
+  font-style: italic;
+}
+
+dl dd {
+	padding-top: 3px;
+}
+
+.leftImage {
+  float: left;
+}
+
+.rightImage {
+	float: right;
+}
+h1{
+	text-align:center;
+	border-bottom: dotted 1px #043931;
+	border-top: dotted 1px #043931;
+	border-left: solid 5px #043931;
+	border-right: solid 5px #043931;
+	background: #EDF0C7;
+	padding: 1px;
+	margin:1px 1px 1px 1px;
+	letter-spacing:2px;
+}
+
+h2
+{
+  font-size: 18px;
+	border-bottom: solid 1px #07892f;
+	padding: 1px;
+	margin:1px 1px 1px 1px;
+	letter-spacing:1px;
+}
+
+/*H3 and H4 used in twitter!*/
+/*h3
+{
+	font: 16px Georgia;
+	text-align:center;
+	color: #062A20;
+	border-bottom: dotted 1px #043931;
+	border-top: dotted 1px #043931;
+	border-left: solid 5px #043931;
+	border-right: solid 5px #043931;
+	background: #EDF0C7;
+	padding: 1px;
+	margin:1px 1px 3px 1px;
+	letter-spacing:2px;
+}
+
+h4
+{
+	font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	color: #06391F;
+	border-top: dashed 1px #B85685;
+	padding: 3px;
+	margin:3px 0px 0px 0px;
+	letter-spacing:1px;
+}
+*/
+h5
+{
+	font-style: italic;
+	letter-spacing:2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}

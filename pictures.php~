@@ -1,0 +1,25 @@
+<?php
+include 'header.php';
+?>
+<html>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript">
+  //$(content).hide();
+</script>
+<script type="text/javascript" src="lightbox/js/prototype.js"></script>
+<script type="text/javascript" src="lightbox/js/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="lightbox/js/lightbox.js"></script>
+<link rel="stylesheet" href="lightbox/css/lightbox.css" type="text/css" media="screen" />
+<div id="pictures">
+	<br> Click on a photo to see a larger version. Use the arrow keys to navigate. 
+  <br><br>
+	<a href="pictures/1.JPG" rel="lightbox[ethiopia]" title="Ethiopia. Credit: Mahlet W."><img src="pictures/1.JPG" width="130" height="100"></a>
+	<a href="pictures/2.JPG" rel="lightbox[ethiopia]" title="Ethiopia. Credit: Mahlet W."><img src="pictures/2.JPG" width="130" height="100"></a>
+	<a href="pictures/3.JPG" rel="lightbox[ethiopia]" title="Ethiopia. Credit: Mahlet W."><img src="pictures/3.JPG" width="130" height="100"></a>
+	<a href="pictures/4.JPG" rel="lightbox[ethiopia]" title="Ethiopia. Credit: Mahlet W."><img src="pictures/4.JPG" width="130" height="100"></a>
+  <br><br> More photos to be added soon! :)
+  </div>
+</div>
+</div> <!--/container-->
+</body> 
+</html>
