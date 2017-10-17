@@ -12,7 +12,7 @@ function switch(id)
 </script>-->
 <!--<div class="top" onClick="switch('exec')">Exec</div>-->
 <div id="about">
-<b>About Us</b><br>
+<b style= "font-size:200%; font-family:cambria;">About Us</b><br>
 The MIT Ethiopian-Eritrean Student Association (MIT-EESA) is a student group at the Massachusetts Institute of Technology. The purpose of the MIT-EESA is to bring about awareness and understanding of Ethiopian culture to the MIT community, as well as to residents of the Cambridge and Boston areas. In addition, the group will strive to create a venue where Ethiopian/Eritrean students and those interested in Ethiopian/Eritrean culture can interact and learn from one another's experiences. The group was formed in Spring 2011. Feel free to send us your comments, feedback, and advice. Thank you for visiting our site.<br>
 </div>
 <br>

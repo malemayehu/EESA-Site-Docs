@@ -25,7 +25,5 @@ Hangin' With Habesha's Part 2
 <br> And more!
 <br><br>
 </p>
-    </div> <!--/content-->
-  </div> <!--/container-->
 </body> 
 </html>

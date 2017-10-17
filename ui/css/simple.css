@@ -1,0 +1,68 @@
+body {
+    background-color: silver;
+    width: 700px;
+    margin: 0 auto; /*topBottom leftright*/
+}
+
+#page_wrap {
+    border-style: solid;
+    border-width: 1px;	
+    border-color: green;
+}
+
+#top_box {
+    font-size: 2em; /*try: xx-large; 300%;*/
+    text-align: center;
+    background-color: blue;
+}
+
+#bottom_box {
+    background-color: yellow;
+    padding: 15px;
+    /* try margin: 15px; */
+}
+
+#nav_container {
+    background-color: green;
+    padding-left: 110px; /* cheap way to center navigation boxes */
+}
+
+.nav_itms {
+/*    width: 120px;
+    height: 30px;
+    background-color: red;
+    margin: 10px;
+   float: left;*/
+}
+
+.nav_itms a {
+    text-decoration: none;
+    margin: 2px;
+    padding: 5px 20px;
+    float: left;
+    color: black;
+    background-color: red;
+    font-weight: bold;
+}
+.nav_itms a:hover {
+    color: white;
+    background-color: black;
+}
+
+#content_container {
+    min-height: 400px;
+    background-color: white;
+    clear: both; /* toggle this */ 
+}
+
+.title_small {
+    color: blue;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px;
+    /*text-align: center;*/
+}
+
+.txt {
+    padding: 5px 15px; /*top-bottom left-right*/
+}
